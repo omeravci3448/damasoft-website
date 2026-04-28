@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İletişim - DamaSoft Yazılım Çözümleri</title>
+  <meta name="description" content="DamaSoft ile iletişime geçin. Yazılım projeleriniz için ücretsiz danışmanlık alın.">
+  <link rel="icon" href="assets/img/logo.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="preloader"><img src="assets/img/logo.png" alt="DamaSoft"></div>
+
+<nav class="navbar"><div class="nav-container">
+  <a href="index.html" class="nav-logo"><img src="assets/img/logo.png" alt="DamaSoft Logo"></a>
+  <div class="nav-menu">
+    <a href="index.html" class="nav-link">Ana Sayfa</a>
+    <a href="hizmetler.html" class="nav-link">Hizmetler</a>
+    <a href="hakkimizda.html" class="nav-link">Hakkımızda</a>
+    <a href="projeler.html" class="nav-link">Projeler</a>
+    <a href="iletisim.html" class="nav-link nav-cta active">İletişim</a>
+  </div>
+  <button class="nav-toggle" aria-label="Menü"><span></span><span></span><span></span></button>
+</div></nav>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Ana Sayfa</a> <i class="fas fa-chevron-right" style="font-size:.6rem"></i> İletişim</div>
+    <h1>Bizimle <span class="gradient-text">İletişime Geçin</span></h1>
+    <p>Projenizi konuşalım, birlikte en iyi çözümü bulalım.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-layout">
+      <div class="reveal-left">
+        <div class="contact-info-card">
+          <div class="icon"><i class="fas fa-envelope"></i></div>
+          <div><h4>E-posta</h4><p>info@damasoft.com.tr</p></div>
+        </div>
+        <div class="contact-info-card">
+          <div class="icon"><i class="fas fa-phone"></i></div>
+          <div><h4>Telefon</h4><p>0532 662 97 46</p></div>
+        </div>
+        <div class="contact-info-card">
+          <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div><h4>Adres</h4><p>Fatih Mahallesi 824. Sokak No: 17/2 Merkez/Afyonkarahisar</p></div>
+        </div>
+        <div class="contact-info-card">
+          <div class="icon"><i class="fas fa-clock"></i></div>
+          <div><h4>Çalışma Saatleri</h4><p>Pazartesi - Cuma: 09:00 - 18:00</p></div>
+        </div>
+
+      </div>
+      <div class="contact-form reveal-right">
+        <h3 style="margin-bottom:24px;font-size:1.3rem">Proje Talebi Gönderin</h3>
+        <form id="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Ad Soyad</label>
+              <input type="text" id="name" name="name" placeholder="Adınız Soyadınız" required>
+            </div>
+            <div class="form-group">
+              <label for="email">E-posta</label>
+              <input type="email" id="email" name="email" placeholder="ornek@email.com" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Telefon</label>
+              <input type="tel" id="phone" name="phone" placeholder="+90 (5xx) xxx xx xx">
+            </div>
+            <div class="form-group">
+              <label for="service">Hizmet Türü</label>
+              <select id="service" name="service">
+                <option value="">Seçiniz</option>
+                <option value="web">Web Uygulama Geliştirme</option>
+                <option value="mobil">Mobil Uygulama</option>
+                <option value="ai">Yapay Zeka & ML</option>
+                <option value="bulut">Bulut Çözümleri</option>
+                <option value="erp">ERP & İş Yönetimi</option>
+                <option value="iot">IoT & Otomasyon</option>
+                <option value="diger">Diğer</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Konu</label>
+            <input type="text" id="subject" name="subject" placeholder="Proje konusu">
+          </div>
+          <div class="form-group">
+            <label for="message">Mesajınız</label>
+            <textarea id="message" name="message" placeholder="Projeniz hakkında detaylı bilgi verin..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">
+            <i class="fas fa-paper-plane"></i> Gönder
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Map Section -->
+    <div class="reveal" style="margin-top:80px">
+      <div class="section-header" style="margin-bottom:40px">
+        <h2>Konumumuz</h2>
+        <p>Bizi ofisimizde ziyaret edebilir veya yol tarifi alabilirsiniz.</p>
+        <div class="section-line"></div>
+      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3118.463304386762!2d30.582582412140417!3d38.74693437163351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cf170553f01915%3A0xa4f9df046b3da1af!2s824.%20Sk.%20No%3A17%2F2%20D%3A2%2C%2003100%20Afyonkarahisar%20Merkez%2FAfyonkarahisar!5e0!3m2!1str!2str!4v1777411175654!5m2!1str!2str" width="100%" height="450" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><img src="assets/img/logo.png" alt="DamaSoft Logo"><p>Modern teknolojiler ve yapay zeka destekli yazılım çözümleriyle dijital dönüşüm ortağınız.</p>
+</div>
+      <div><h4>Hızlı Erişim</h4><ul class="footer-links"><li><a href="index.html">Ana Sayfa</a></li><li><a href="hizmetler.html">Hizmetler</a></li><li><a href="hakkimizda.html">Hakkımızda</a></li><li><a href="projeler.html">Projeler</a></li><li><a href="iletisim.html">İletişim</a></li></ul></div>
+      <div><h4>Hizmetler</h4><ul class="footer-links"><li><a href="hizmetler.html">Web Uygulamaları</a></li><li><a href="hizmetler.html">Mobil Geliştirme</a></li><li><a href="hizmetler.html">Yapay Zeka</a></li><li><a href="hizmetler.html">Bulut Çözümleri</a></li></ul></div>
+      <div><h4>İletişim</h4><ul class="footer-links"><li><i class="fas fa-envelope" style="margin-right:8px;color:var(--brand-200)"></i> info@damasoft.com.tr</li><li><i class="fas fa-phone" style="margin-right:8px;color:var(--brand-200)"></i> 0532 662 97 46</li><li><i class="fas fa-map-marker-alt" style="margin-right:8px;color:var(--brand-200)"></i> Fatih Mahallesi 824. Sokak No: 17/2 Merkez/Afyonkarahisar</li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 DamaSoft. Tüm hakları saklıdır.</span><span>Yapay Zeka Destekli Yazılım Çözümleri</span></div>
+  </div>
+</footer>
+<a href="https://wa.me/905326629746" class="whatsapp-float" target="_blank" aria-label="WhatsApp üzerinden iletişime geçin"><i class="fab fa-whatsapp"></i></a>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeler - DamaSoft Yazılım Çözümleri</title>
+  <meta name="description" content="DamaSoft'un tamamladığı web, mobil ve yapay zeka projelerini inceleyin.">
+  <link rel="icon" href="assets/img/logo.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="preloader"><img src="assets/img/logo.png" alt="DamaSoft"></div>
+
+<nav class="navbar"><div class="nav-container">
+  <a href="index.html" class="nav-logo"><img src="assets/img/logo.png" alt="DamaSoft Logo"></a>
+  <div class="nav-menu">
+    <a href="index.html" class="nav-link">Ana Sayfa</a>
+    <a href="hizmetler.html" class="nav-link">Hizmetler</a>
+    <a href="hakkimizda.html" class="nav-link">Hakkımızda</a>
+    <a href="projeler.html" class="nav-link active">Projeler</a>
+    <a href="iletisim.html" class="nav-link nav-cta">İletişim</a>
+  </div>
+  <button class="nav-toggle" aria-label="Menü"><span></span><span></span><span></span></button>
+</div></nav>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Ana Sayfa</a> <i class="fas fa-chevron-right" style="font-size:.6rem"></i> Projeler</div>
+    <h1>Başarılı <span class="gradient-text">Projelerimiz</span></h1>
+    <p>Farklı sektörlerde hayata geçirdiğimiz projelerden örnekler.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="project-filters reveal">
+      <button class="filter-btn active" data-filter="all">Tümü</button>
+      <button class="filter-btn" data-filter="web">Web</button>
+      <button class="filter-btn" data-filter="mobil">Mobil</button>
+      <button class="filter-btn" data-filter="erp">ERP</button>
+      <button class="filter-btn" data-filter="ai">Yapay Zeka</button>
+      <button class="filter-btn" data-filter="iot">IoT</button>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card reveal stagger-1" data-category="erp">
+        <div class="project-thumb"><i class="fas fa-microchip"></i></div>
+        <div class="project-info">
+          <h3>Avcı Elektronik ERP</h3>
+          <p>Elektronik bileşen envanteri, üretim takibi ve satış yönetimi için geliştirilmiş kapsamlı ERP çözümü.</p>
+          <div class="project-tags"><span class="project-tag">C#</span><span class="project-tag">MS-SQL</span><span class="project-tag">Masaüstü</span></div>
+        </div>
+      </div>
+      <div class="project-card reveal stagger-2" data-category="erp">
+        <div class="project-thumb"><i class="fas fa-hammer"></i></div>
+        <div class="project-info">
+          <h3>Eser Mobilya Üretim Planlama</h3>
+          <p>Mobilya üretim süreçlerinin optimize edilmesi, hammadde takibi ve iş emri yönetimi uygulaması.</p>
+          <div class="project-tags"><span class="project-tag">Node.js</span><span class="project-tag">React</span><span class="project-tag">PostgreSQL</span></div>
+        </div>
+      </div>
+      <div class="project-card reveal stagger-3" data-category="erp">
+        <div class="project-thumb"><i class="fas fa-warehouse"></i></div>
+        <div class="project-info">
+          <h3>Envanter Zinciri</h3>
+          <p>Çok lokasyonlu envanter yönetim sistemi. Barkod okuma, stok takibi, transfer yönetimi ve gerçek zamanlı bildirimler.</p>
+          <div class="project-tags"><span class="project-tag">Node.js</span><span class="project-tag">React</span><span class="project-tag">PostgreSQL</span><span class="project-tag">PWA</span></div>
+        </div>
+      </div>
+      <div class="project-card reveal stagger-4" data-category="iot">
+        <div class="project-thumb"><i class="fas fa-bolt"></i></div>
+        <div class="project-info">
+          <h3>Dama OSB Manager</h3>
+          <p>Organize sanayi bölgesi enerji yönetim sistemi. Sayaç okuma, faturalama, PDF raporlama ve çarpan katsayısı hesaplama.</p>
+          <div class="project-tags"><span class="project-tag">Node.js</span><span class="project-tag">Modbus</span><span class="project-tag">PDF</span><span class="project-tag">IoT</span></div>
+        </div>
+      </div>
+      <div class="project-card reveal stagger-5" data-category="web">
+        <div class="project-thumb"><i class="fas fa-shopping-cart"></i></div>
+        <div class="project-info">
+          <h3>E-Ticaret Platformu</h3>
+          <p>Çok dilli, çok para birimli e-ticaret platformu. Ödeme entegrasyonu, sipariş yönetimi ve gelişmiş analitik paneli.</p>
+          <div class="project-tags"><span class="project-tag">Next.js</span><span class="project-tag">Stripe</span><span class="project-tag">MongoDB</span></div>
+        </div>
+      </div>
+      <div class="project-card reveal stagger-6" data-category="mobil">
+        <div class="project-thumb"><i class="fas fa-truck"></i></div>
+        <div class="project-info">
+          <h3>Lojistik Takip Uygulaması</h3>
+          <p>Filo yönetimi ve teslimat takip mobil uygulaması. Gerçek zamanlı GPS takibi, rota optimizasyonu ve dijital teslimat onayı.</p>
+          <div class="project-tags"><span class="project-tag">React Native</span><span class="project-tag">Firebase</span><span class="project-tag">Google Maps</span></div>
+        </div>
+      </div>
+      <div class="project-card reveal" data-category="ai">
+        <div class="project-thumb"><i class="fas fa-comments"></i></div>
+        <div class="project-info">
+          <h3>AI Müşteri Asistanı</h3>
+          <p>Doğal dil işleme tabanlı müşteri destek chatbotu. Otomatik bilet oluşturma, duygu analizi ve çok dilli destek.</p>
+          <div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">OpenAI</span><span class="project-tag">LangChain</span></div>
+        </div>
+      </div>
+      <div class="project-card reveal" data-category="web">
+        <div class="project-thumb"><i class="fas fa-hospital"></i></div>
+        <div class="project-info">
+          <h3>Klinik Yönetim Sistemi</h3>
+          <p>Hasta kayıt, randevu, reçete ve faturalama modüllerini içeren kapsamlı klinik yönetim platformu.</p>
+          <div class="project-tags"><span class="project-tag">Vue.js</span><span class="project-tag">Node.js</span><span class="project-tag">PostgreSQL</span></div>
+        </div>
+      </div>
+      <div class="project-card reveal" data-category="iot">
+        <div class="project-thumb"><i class="fas fa-solar-panel"></i></div>
+        <div class="project-info">
+          <h3>Güneş Paneli İzleme</h3>
+          <p>Güneş enerjisi santralleri için gerçek zamanlı verimlilik takibi, arıza tespiti ve raporlama sistemi.</p>
+          <div class="project-tags"><span class="project-tag">IoT</span><span class="project-tag">InfluxDB</span><span class="project-tag">Grafana</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-box reveal-scale">
+      <h2>Sizin Projeniz de Burada <span class="gradient-text">Yer Alsın</span></h2>
+      <p>Hayalinizdeki projeyi birlikte gerçeğe dönüştürelim.</p>
+      <a href="iletisim.html" class="btn btn-primary"><i class="fas fa-rocket"></i> Proje Başlatalım</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><img src="assets/img/logo.png" alt="DamaSoft Logo"><p>Modern teknolojiler ve yapay zeka destekli yazılım çözümleriyle dijital dönüşüm ortağınız.</p>
+</div>
+      <div><h4>Hızlı Erişim</h4><ul class="footer-links"><li><a href="index.html">Ana Sayfa</a></li><li><a href="hizmetler.html">Hizmetler</a></li><li><a href="hakkimizda.html">Hakkımızda</a></li><li><a href="projeler.html">Projeler</a></li><li><a href="iletisim.html">İletişim</a></li></ul></div>
+      <div><h4>Hizmetler</h4><ul class="footer-links"><li><a href="hizmetler.html">Web Uygulamaları</a></li><li><a href="hizmetler.html">Mobil Geliştirme</a></li><li><a href="hizmetler.html">Yapay Zeka</a></li><li><a href="hizmetler.html">Bulut Çözümleri</a></li></ul></div>
+      <div><h4>İletişim</h4><ul class="footer-links"><li><i class="fas fa-envelope" style="margin-right:8px;color:var(--brand-200)"></i> info@damasoft.com.tr</li><li><i class="fas fa-phone" style="margin-right:8px;color:var(--brand-200)"></i> 0532 662 97 46</li><li><i class="fas fa-map-marker-alt" style="margin-right:8px;color:var(--brand-200)"></i> Fatih Mahallesi 824. Sokak No: 17/2 Merkez/Afyonkarahisar</li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 DamaSoft. Tüm hakları saklıdır.</span><span>Yapay Zeka Destekli Yazılım Çözümleri</span></div>
+  </div>
+</footer>
+<a href="https://wa.me/905326629746" class="whatsapp-float" target="_blank" aria-label="WhatsApp üzerinden iletişime geçin"><i class="fab fa-whatsapp"></i></a>
+<script src="js/main.js"></script>
+</body>
+</html>
