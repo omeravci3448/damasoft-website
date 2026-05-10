@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanayi Cari - Akıllı Cari Takip Sistemi | DamaSoft</title>
+  <meta name="description" content="Otomotiv sanayi esnafı için özel olarak geliştirilmiş, hızlı, güvenli ve bulut tabanlı cari takip programı.">
+  <link rel="icon" href="assets/img/logo.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    :root {
+      --sc-primary: #0066ff;
+      --sc-secondary: #00d4ff;
+      --sc-dark: #0a192f;
+    }
+    
+    .sc-hero {
+      padding: 160px 0 100px;
+      background: radial-gradient(circle at top right, rgba(0, 102, 255, 0.1), transparent),
+                  radial-gradient(circle at bottom left, rgba(0, 212, 255, 0.05), transparent);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .sc-logo-big {
+      height: 120px;
+      margin-bottom: 30px;
+      filter: drop-shadow(0 10px 20px rgba(0,102,255,0.2));
+    }
+
+    .sc-glass-card {
+      background: rgba(255, 255, 255, 0.03);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 30px;
+      padding: 40px;
+      margin-top: 50px;
+    }
+
+    .download-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 40px;
+    }
+
+    .download-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      padding: 18px;
+      border-radius: 20px;
+      font-weight: 800;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      border: 2px solid transparent;
+    }
+
+    .btn-win { background: #0078d4; color: white; }
+    .btn-apk { background: #3ddc84; color: #073042; }
+    .btn-play { background: #ffffff; color: #202124; border: 2px solid #e0e0e0; }
+
+    .download-btn:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    }
+
+    .feature-icon-box {
+      width: 60px;
+      height: 60px;
+      background: linear-gradient(135deg, var(--sc-primary), var(--sc-secondary));
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      color: white;
+      margin-bottom: 20px;
+    }
+
+    .sc-screenshot {
+      border-radius: 20px;
+      box-shadow: 0 30px 60px rgba(0,0,0,0.15);
+      width: 100%;
+      transition: transform 0.5s ease;
+    }
+
+    .sc-screenshot:hover {
+      transform: scale(1.02);
+    }
+
+    .badge-promo {
+      background: rgba(0, 102, 255, 0.1);
+      color: var(--sc-primary);
+      padding: 8px 20px;
+      border-radius: 50px;
+      font-weight: 800;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo"><img src="assets/img/logo.png" alt="DamaSoft Logo"></a>
+    <div class="nav-menu" id="nav-menu">
+      <a href="index.html" class="nav-link">Ana Sayfa</a>
+      <a href="hizmetler.html" class="nav-link">Hizmetler</a>
+      <a href="sanayi-cari.html" class="nav-link active">Sanayi Cari</a>
+      <a href="hakkimizda.html" class="nav-link">Hakkımızda</a>
+      <a href="projeler.html" class="nav-link">Projeler</a>
+      <a href="iletisim.html" class="nav-link nav-cta">İletişim</a>
+    </div>
+  </div>
+</nav>
+
+<section class="sc-hero">
+  <div class="container">
+    <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+      <img src="assets/img/sc-logo.png" alt="Sanayi Cari Logo" class="sc-logo-big reveal">
+      <div class="badge-promo reveal">Otomotiv Dünyası İçin Dijital Devrim</div>
+      <h1 class="reveal">Sanayinin Yeni Nesil <br><span class="gradient-text">Akıllı Cari Takip Sistemi</span></h1>
+      <p class="reveal">Tamirhaneler, yedek parçacılar ve tüm sanayi esnafı için geliştirilen Sanayi Cari ile borç-alacak takibi artık çocuk oyuncağı. Cebinizde, tabletinizde ve bilgisayarınızda!</p>
+      
+      <div class="download-grid reveal">
+        <a href="#" class="download-btn btn-win">
+          <i class="fab fa-windows"></i>
+          <div>
+            <div style="font-size: 10px; font-weight: 400; opacity: 0.8;">Windows için</div>
+            <div>.EXE İndir</div>
+          </div>
+        </a>
+        <a href="#" class="download-btn btn-apk">
+          <i class="fab fa-android"></i>
+          <div>
+            <div style="font-size: 10px; font-weight: 400; opacity: 0.8;">Android için</div>
+            <div>.APK İndir</div>
+          </div>
+        </a>
+        <a href="#" class="download-btn btn-play">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" style="height: 30px;">
+        </a>
+      </div>
+    </div>
+
+    <div class="sc-glass-card reveal" style="margin-top: 80px;">
+      <img src="assets/img/sc-hero.png" alt="Sanayi Cari Dashboard" class="sc-screenshot">
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-badge">Neler Sunuyoruz?</span>
+      <h2>İşletmenizi Kolaylaştıran Özellikler</h2>
+      <p>Manuel defter tutma devri bitti. Tüm hesaplarınız bulutta, güvende ve her an yanınızda.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="card reveal stagger-1">
+        <div class="feature-icon-box"><i class="fas fa-users"></i></div>
+        <h3>Müşteri & Tedarikçi Yönetimi</h3>
+        <p>Tüm müşterilerinizin ve parça aldığınız tedarikçilerin detaylı listesini tutun, iletişim bilgilerine anında erişin.</p>
+      </div>
+      <div class="card reveal stagger-2">
+        <div class="feature-icon-box"><i class="fas fa-lira-sign"></i></div>
+        <h3>Anlık Cari Takip</h3>
+        <p>Borç ve alacak bakiyelerini renk kodlarıyla (Kırmızı/Yeşil) takip edin. Kimin ne kadar borcu olduğunu bir bakışta görün.</p>
+      </div>
+      <div class="card reveal stagger-3">
+        <div class="feature-icon-box"><i class="fas fa-shield-alt"></i></div>
+        <h3>Gece Görevlisi (Yedekleme)</h3>
+        <p>Verileriniz bizim için kutsal. "Gece Görevlisi" sistemimiz her gün otomatik yedek alır, veri kaybı riskini sıfıra indirir.</p>
+      </div>
+      <div class="card reveal stagger-4">
+        <div class="feature-icon-box"><i class="fas fa-percentage"></i></div>
+        <h3>Referans & İndirim Sistemi</h3>
+        <p>Diğer usta arkadaşlarınıza önerin, hem siz kazanın hem onlar! Referans kodlarıyla aboneliklerde %5 indirim avantajı.</p>
+      </div>
+      <div class="card reveal stagger-5">
+        <div class="feature-icon-box"><i class="fas fa-sync"></i></div>
+        <h3>Tam Senkronizasyon</h3>
+        <p>Bilgisayarda girdiğiniz veriyi anında cep telefonunuzda görün. Ofiste de sahada da kontrol sizde.</p>
+      </div>
+      <div class="card reveal stagger-6">
+        <div class="feature-icon-box"><i class="fas fa-print"></i></div>
+        <h3>Hızlı Raporlama</h3>
+        <p>Tek tıkla cari ekstre dökümü alın, WhatsApp üzerinden müşterilerinize borç hatırlatması gönderin.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background: #f8fafc;">
+  <div class="container">
+    <div class="about-preview">
+      <div class="about-content reveal-left">
+        <span class="section-badge">Mobil Uygulama</span>
+        <h2>Sanayi Cari Play Store'da!</h2>
+        <p>İşinizin başında değilken bile her şey kontrolünüz altında olsun. Sanayi Cari mobil uygulaması ile müşterilerinizin borç durumunu dükkan dışındayken de kontrol edebilir, yeni işlem girebilirsiniz.</p>
+        <div class="about-features">
+          <div class="about-feature"><i class="fas fa-check-circle"></i> Hızlı ve akıcı arayüz</div>
+          <div class="about-feature"><i class="fas fa-check-circle"></i> Bildirimlerle anlık takip</div>
+          <div class="about-feature"><i class="fas fa-check-circle"></i> Kamera ile belge yükleme</div>
+        </div>
+        <a href="#" class="btn btn-primary" style="margin-top: 20px;"><i class="fab fa-google-play"></i> Play Store'da Görüntüle</a>
+      </div>
+      <div class="about-image reveal-right">
+        <img src="assets/img/sc-mobile.png" alt="Sanayi Cari Mobile" style="max-width: 400px; margin: 0 auto; display: block;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-box reveal-scale">
+      <h2>Hemen Denemeye <br><span class="gradient-text">Başlayın!</span></h2>
+      <p>İşletmenizi dijital dünyaya taşıyın, verimliliğinizi artırın. Demo hesap için hemen bize ulaşın.</p>
+      <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+        <a href="https://wa.me/905326629746" class="btn btn-primary"><i class="fab fa-whatsapp"></i> WhatsApp Destek</a>
+        <a href="iletisim.html" class="btn btn-outline" style="border-color: white; color: white;">Bize Ulaşın</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom">
+      <span>&copy; 2026 DamaSoft - Sanayi Cari Takip Sistemi. Tüm hakları saklıdır.</span>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/905326629746" class="whatsapp-float" target="_blank" aria-label="WhatsApp üzerinden iletişime geçin"><i class="fab fa-whatsapp"></i></a>
+<script src="js/main.js"></script>
+</body>
+</html>
